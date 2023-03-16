@@ -17,3 +17,5 @@ function puede_manejar(edad) {
         console.log(false);
     }
 }
+
+puede_manejar(17);
