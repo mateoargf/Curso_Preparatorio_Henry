@@ -9,14 +9,14 @@ console.log(suma);
 for (var i = 0; i < 5; i++) {
     suma = suma + i;
     console.log('Variable de iteración for ', i);
-}
+};
 
 console.log('Variable de suma for ', suma);
 
 while (suma < 3) {
     suma = suma + 1;
     console.log('Variable de suma while ', suma);
-}
+};
 
 var Animal = 'Jirafa';
 switch (Animal) {
@@ -29,7 +29,7 @@ switch (Animal) {
     case 'Dinosaurio':
     default:
         console.log('Este animal no lo hará.');
-}
+};
 
 var foo = 1;
 var output = 'Salida: ';
@@ -53,7 +53,7 @@ switch (foo) {
         break;
     default:
         console.log('Por favor, selecciona un valor del 1 al 6.');
-}
+};
 
 var result = '';
 var i = 0;
@@ -79,7 +79,7 @@ while (i < 5) {
         continue;
     n += i;
     console.log(n);
-}
+};
 
 function comprobarBreak(x) {
     var i = 0;
@@ -89,4 +89,4 @@ function comprobarBreak(x) {
         i++;
     }
     return i * x;
-}
+};
